@@ -1,0 +1,47 @@
+html {
+    background-color: #b29ead; font-family: Georgia, 'Times New Roman', Times, serif; font-size: xx-large; color: #553f4a 
+    
+    
+}
+
+#outro1 {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+#outro2 {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+#outro3 {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+
+#middle1 {
+    position: absolute;
+    height: 100%;
+    left: 40%;
+    top: 25%;
+}
+
+#middle2 {
+    position: absolute;
+    height: 100%;
+    right: 50%;
+    top: 50%;
+}
+
+#middle3 {
+    position: absolute;
+    height: 100%;
+    left:50%; 
+    top: 50%;
+}
+
+  

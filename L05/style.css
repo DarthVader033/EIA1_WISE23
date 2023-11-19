@@ -1,0 +1,85 @@
+body {
+    background-color: green;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: pink;
+    }
+  }
+  
+
+
+
+#div1 { 
+    width: 1000px;
+    height: 250px;
+    background-color: aquamarine;
+    position: absolute;
+    height: 88%;
+    left: 3%;
+    top: 6%;
+}
+
+  #div2 { 
+    width: 265px;
+    height: 250px;
+    background-color: purple;
+    position: absolute;
+    height: 50%;
+    right: 3%;
+    top: 6%;
+  }
+
+  #div3 { 
+    
+    background-color: bisque;
+    position: absolute;
+
+        width: 265px;
+        height: 250px;
+        background-color: bisque;
+        position: absolute;
+        height: 38%;
+        right: 3%;
+        top: 56%;
+    
+  }
+
+  
+body {
+    font-size: 16px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: yellow;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: grey;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: violet;}
+}
