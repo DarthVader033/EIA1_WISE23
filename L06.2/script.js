@@ -1,6 +1,16 @@
 
 
 // index 0 1 2 3 4 
+
+    if (yourChoice =="surrender") {
+        let myAction = prompt (myArray[3]);
+    }
+    else if ("fight"){
+        let myAction = prompt (myArray[3]);
+    }
+
+
+
 let myArray = [
     "You are stranded on the Death Star surrounded by imperial personell. You must escape and find your rebel friends. Are you choosing the left or right hallway?",
     "Darth Vader approaches you with his lightsaber drawn. Do you surrender or fight?",
@@ -24,13 +34,4 @@ if (yourChoice == "left") {
 
 else if (yourChoice == "right") {
    let myAction = prompt (myArray[2]);
-    if (yourChoice =="surrender") {
-        let myAction = prompt (myArray[3]);
-    }
-    else if ("fight"){
-        let myAction = prompt (myArray[3]);
-    }
-
 }
-
-
